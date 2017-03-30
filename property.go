@@ -4,10 +4,12 @@ import (
 	api "github.com/CoachApplication/api"
 	base "github.com/CoachApplication/base"
 	base_errors "github.com/CoachApplication/base/errors"
+	"github.com/CoachApplication/security/rule"
 )
 
 const (
-	PROPERTY_ID_USER = "security.user"
+	PROPERTY_ID_USER       = "security.user"
+	PROPERTY_ID_RULERESULT = "security.rule.result"
 )
 
 type UserProperty struct {
